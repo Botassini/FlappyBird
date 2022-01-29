@@ -172,7 +172,7 @@ def desenhar_tela(tela, passaros, canos, chao, pontos):
 
 def main():
     pygame.init()
-    passaros = [Bird(240, 350), Bird(180, 350)]
+    passaros = [Bird(240, 350)]
     chao = Base(730)
     canos = [Pipe(700)]
     tela = pygame.display.set_mode((WIDTH_SCREEN, HEIGHT_SCREEN))
